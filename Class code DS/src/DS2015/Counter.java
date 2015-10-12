@@ -10,7 +10,7 @@ public class Counter {
 	public int get(){
 		return count;
 	}
-	
+	//increase by 1
 	void increase(){
 		count+=1;
 	}
@@ -21,13 +21,10 @@ public class Counter {
 	}
 	
 	void decrease(){
-		count-=x;
-	}
-	void decrease(){
 		count-=1;
 	}
 	void decrease(int count){
-		count-=count;
+		this.count-=count;
 		System.out.println("count Value = "+count);
 	}
 	public void reset(){
