@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author slice
- *
- */
-package homework;
